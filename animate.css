@@ -1,0 +1,152 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Gilroy";
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#back{
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    padding: 5px 20px;
+}
+
+#nav{
+    width: 100%;
+    height: 50px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+}
+#nav #links a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    margin-left: 130px;
+}
+
+#nav #links a:nth-child(1){
+    margin-left: 0px;
+}
+#nav #icons i{
+    display: inline-block;
+    margin-left: 35px;
+}
+#nav #icons i:nth-child(1){
+    margin-left: 0px;
+}
+#main{
+    position: absolute;
+    left: 190px;
+    top: 78px;
+    width: 75%;
+    height: 75%;
+}
+#head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+}
+#side-bar{
+    display: flex;
+}
+#side-bar p{
+    margin-left: 15px;
+    font-weight: 550;
+}
+#main h1{
+    color: black;
+    font-weight: 700;
+}
+#main #image{
+    position: relative;
+    width: 100%;
+    height: 95%;
+    background-image: url("https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80");
+    background-size: cover; 
+    
+}
+#footer{
+    width: 1495px;
+    height: 50px;
+    position: absolute;
+    top: 92%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+}
+#icons i{
+    display: inline-block;
+    margin-left: 20px;
+    font-weight: 700;
+}
+#icons i:nth-child(1){
+    margin-left: 0px;
+}
+#lock i{
+    display: inline-block;
+    font-size: 20px;
+}
+#footer h3{
+    font-size: 14px;
+}
+
+#box{
+    position: absolute;
+    left: 1268px;
+    top: 78%;
+    height: 40px;
+    width: 150px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+#box h4{
+    color: white;
+    font-weight:normal;
+    font-size: 12px;
+}
+
+#box i{
+    position: absolute;
+    top: 15px;
+    left: 100px;
+}
+
+#headings p{
+    position: absolute;
+    top: 50%;
+    left: 135px;
+    font-family: 'Roboto Mono';
+    font-weight: 700;
+    color: black;
+}
+#headings span{
+    position: absolute;
+    top: 50%;
+    left: 1360px;
+    font-family: 'Roboto Mono';
+    color: black;
+}
+#name{
+    position: absolute;
+    top: 60%;
+    left: 70px;
+    width: 32%;
+    height: 207px;
+    
+}
